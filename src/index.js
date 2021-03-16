@@ -6,12 +6,20 @@ import TodoList from './components/todo-list.js'
 
 const root = document.getElementById('root')
 
+
 const App = () => {
+    
+    const todoData = [
+        {label: 'Выучить реакт', important: false},
+        {label: 'Выпить кофе', important: false},
+        {label: 'не отвлекаться', important: true},
+    ]
+    
     return (
         <div>
             <Header/>
             <SearchPanel/>
-            <TodoList/>
+            <TodoList todos={ todoData }/>
         </div>
     )
 }

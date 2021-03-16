@@ -6,10 +6,12 @@ const TodoItem = ({
                       complited = false,
                   }) => {
     
-    const color = important ? `tomato` : ``
-    const isComplited = complited ? `line-through` : ``
+    const style = {
+        color: important ? `tomato` : `black`,
+        complited: complited ? `line-through` : `inherit`,
+    }
     
-    return <span style={ {color, textDecoration: isComplited} }>{ label }</span>
+    return <span style={style}>{ label }</span>
     
 }
 

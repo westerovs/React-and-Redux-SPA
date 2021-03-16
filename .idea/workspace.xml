@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd121411-00bb-49d7-a095-97aebf6cc474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,7 +85,9 @@
       <workItem from="1615806297224" duration="3521000" />
       <workItem from="1615818371594" duration="943000" />
       <workItem from="1615826922476" duration="3042000" />
-      <workItem from="1615836215477" duration="1735000" />
+      <workItem from="1615836215477" duration="3005000" />
+      <workItem from="1615839258492" duration="37000" />
+      <workItem from="1615868872545" duration="2722000" />
     </task>
     <servers />
   </component>
@@ -136,9 +134,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1921" height="279" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state x="602" y="83" key="SettingsEditor" timestamp="1615837563015">
+    <state x="602" y="83" key="SettingsEditor" timestamp="1615839293104">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="602" y="83" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615837563015" />
+    <state x="602" y="83" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615839293104" />
+    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1615839268329">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615839268329" />
   </component>
 </project>
