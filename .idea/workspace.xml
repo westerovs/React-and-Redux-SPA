@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd121411-00bb-49d7-a095-97aebf6cc474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -87,7 +86,7 @@
       <workItem from="1615826922476" duration="3042000" />
       <workItem from="1615836215477" duration="3005000" />
       <workItem from="1615839258492" duration="37000" />
-      <workItem from="1615868872545" duration="2722000" />
+      <workItem from="1615868872545" duration="3753000" />
     </task>
     <servers />
   </component>

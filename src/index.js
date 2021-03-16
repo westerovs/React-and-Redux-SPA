@@ -10,9 +10,9 @@ const root = document.getElementById('root')
 const App = () => {
     
     const todoData = [
-        {label: 'Выучить реакт', important: false},
-        {label: 'Выпить кофе', important: false},
-        {label: 'не отвлекаться', important: true},
+        {label: 'Выучить реакт', important: false, id: 1},
+        {label: 'Выпить кофе', important: false, id: 2},
+        {label: 'не отвлекаться', important: true, id: 3},
     ]
     
     return (
