@@ -20,31 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd121411-00bb-49d7-a095-97aebf6cc474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app-header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/item-status-filter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-panel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app-header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-header/app-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-header/app-header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-header/app-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-header/app-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +69,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -111,6 +91,7 @@
       <workItem from="1615836215477" duration="3005000" />
       <workItem from="1615839258492" duration="37000" />
       <workItem from="1615868872545" duration="3753000" />
+      <workItem from="1615881013254" duration="1143000" />
     </task>
     <servers />
   </component>
@@ -157,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1921" height="279" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state x="602" y="83" key="SettingsEditor" timestamp="1615879153686">
+    <state x="602" y="83" width="1198" height="710" key="SettingsEditor" timestamp="1615882085183">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="602" y="83" key="SettingsEditor/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615879153686" />
+    <state x="602" y="83" width="1198" height="710" key="SettingsEditor/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615882085183" />
     <state x="602" y="83" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615839293104" />
     <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1615879182227">
       <screen x="0" y="0" width="1920" height="1050" />
