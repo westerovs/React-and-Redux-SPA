@@ -20,8 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd121411-00bb-49d7-a095-97aebf6cc474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/app-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-status-filter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-panel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,6 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -133,13 +157,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1921" height="279" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state x="602" y="83" key="SettingsEditor" timestamp="1615839293104">
+    <state x="602" y="83" key="SettingsEditor" timestamp="1615879153686">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="602" y="83" key="SettingsEditor/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615879153686" />
     <state x="602" y="83" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615839293104" />
-    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1615839268329">
+    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1615879182227">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615879182227" />
     <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615839268329" />
   </component>
 </project>
