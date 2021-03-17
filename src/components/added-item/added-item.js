@@ -6,22 +6,14 @@ export default class AddedItem extends Component {
         label: ''
     }
     
-    onChange = (e) => {
-        this.setState(({ label }) => {
-            const value = e.target.value
-    
-            return {
-                label: value
-            }
-        })
+    onLabelChange = (e) => {
+        this.setState(({ label: e.target.value }))
     }
     
     onSubmit = (e) => {
         e.preventDefault()
-        const { onAddedItem } = this.props
-        
-        onAddedItem(this.state.label)
-        e.target.querySelector('.todo__added-input').value = ''
+        this.props.onAddedItem(this.state.label)
+        this.setState(({ label: '' })) // очистка
     }
     
     render() {
@@ -34,7 +26,8 @@ export default class AddedItem extends Component {
                     type="text"
                     className="todo__added-input"
                     placeholder="enter task..."
-                    onChange={ this.onChange }
+                    onChange={ this.onLabelChange }
+                    value={this.state.label}
                 />
                 <button
                     type="submit"
