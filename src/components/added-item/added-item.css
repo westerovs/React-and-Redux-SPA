@@ -1,4 +1,14 @@
-.added {
+.todo__added {
+    display: flex;
+    gap: 20px;
+}
+
+.todo__added-input {
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+.todo__added-btn {
     padding: 5px 10px;
     color: blue;
     cursor: pointer;
