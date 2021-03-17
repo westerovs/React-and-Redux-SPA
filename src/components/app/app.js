@@ -26,7 +26,7 @@ export default class App extends Component {
                 ...todoData.slice(0, todoId),
                 ...todoData.slice(todoId + 1)
             ]
-    
+
             return {
                 todoData: newTodoData
             }
@@ -49,6 +49,13 @@ export default class App extends Component {
         })
     }
     
+    onToggleDone = (id) => {
+        console.log('onToggleDone', id)
+    }
+    onToggleImportant = (id) => {
+        console.log('onToggleImportant', id)
+    }
+    
     render() {
         return (
             <div className="todo-app">
@@ -60,6 +67,8 @@ export default class App extends Component {
                 <TodoList
                     todos={ this.state.todoData }
                     onDeleted={ this.deleteItem }
+                    onToggleDone={ this.onToggleDone }
+                    onToggleImportant={ this.onToggleImportant }
                 />
                 <AddedItem onAddedItem={ this.addedItem }/>
             </div>

@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd121411-00bb-49d7-a095-97aebf6cc474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/added-item/added-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/added-item/added-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/added-item/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/added-item/added-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/added-item/added-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/added-item/added-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/added-item/added-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/todo-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -98,7 +99,12 @@
       <workItem from="1615900868514" duration="1761000" />
       <workItem from="1615908234705" duration="13871000" />
       <workItem from="1615953990624" duration="4033000" />
-      <workItem from="1615962325609" duration="6049000" />
+      <workItem from="1615962325609" duration="6085000" />
+      <workItem from="1615969597068" duration="1387000" />
+      <workItem from="1615976208350" duration="77000" />
+      <workItem from="1615976297857" duration="65000" />
+      <workItem from="1615976375498" duration="3965000" />
+      <workItem from="1615980943251" duration="87000" />
     </task>
     <servers />
   </component>
@@ -153,18 +159,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1921" height="279" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state x="658" y="57" width="1262" height="883" key="SettingsEditor" timestamp="1615918192053">
+    <state x="658" y="57" width="1262" height="883" key="SettingsEditor" timestamp="1615980931230">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="602" y="83" width="1198" height="710" key="SettingsEditor/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615882085183" />
     <state x="658" y="57" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615918192053" />
-    <state x="658" y="57" width="1262" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1615917726896" />
-    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1615963627358">
+    <state x="658" y="57" width="1262" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1615980931230" />
+    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1615980303501">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615963627358" />
     <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615922426421" />
-    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1615955416331" />
+    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1615980303501" />
     <state x="1028" y="267" width="633" height="564" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1615910610497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -2,4 +2,5 @@
     padding: 5px 10px;
     color: blue;
     cursor: pointer;
+    user-select: none;
 }
