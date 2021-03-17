@@ -19,6 +19,22 @@ export default class App extends Component {
         ]
     }
     
+    toggleProperty(arr, id, prop) {
+        const idx = arr.findIndex(item => item.id === id)
+        // update obj
+        const oldItem = arr[idx]
+        const newItem = {
+            ...oldItem,
+            [prop]: !oldItem[prop]
+        }
+        // construct new arr
+        return [
+            ...arr.slice(0, idx),
+            newItem,
+            ...arr.slice(idx + 1)
+        ]
+    }
+    
     createTodoItem(label) {
         return {
             label,
@@ -30,10 +46,10 @@ export default class App extends Component {
     
     deleteItem = (id) => {
         this.setState(({ todoData }) => {
-            const todoId = todoData.findIndex(item => item.id === id)
+            const idx = todoData.findIndex(item => item.id === id)
             const newTodoData = [
-                ...todoData.slice(0, todoId),
-                ...todoData.slice(todoId + 1)
+                ...todoData.slice(0, idx),
+                ...todoData.slice(idx + 1)
             ]
 
             return {
@@ -55,10 +71,21 @@ export default class App extends Component {
     }
     
     onToggleDone = (id) => {
-        console.log('onToggleDone', id)
+        this.setState(({ todoData }) => {
+
+            return {
+                todoData: this.toggleProperty(todoData, id, 'done')
+            }
+        })
     }
+    
     onToggleImportant = (id) => {
-        console.log('onToggleImportant', id)
+        this.setState(({ todoData }) => {
+        
+            return {
+                todoData: this.toggleProperty(todoData, id, 'important')
+            }
+        })
     }
     
     render() {
