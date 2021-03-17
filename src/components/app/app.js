@@ -3,11 +3,13 @@ import React, {Component} from 'react'
 import AppHeader from '../app-header'
 import SearchPanel from '../search-panel'
 import TodoList from '../todo-list'
+import AddedItem from '../added-item'
 import ItemStatusFilter from '../item-status-filter'
-
 import './app.css'
 
 export default class App extends Component {
+    
+    maxId = 100
     
     state = {
         todoData: [
@@ -18,7 +20,7 @@ export default class App extends Component {
     }
     
     deleteItem = (id) => {
-        this.setState(({todoData}) => {
+        this.setState(({ todoData }) => {
             const todoId = todoData.findIndex(item => item.id === id)
             const newTodoData = [
                 ...todoData.slice(0, todoId),
@@ -31,8 +33,23 @@ export default class App extends Component {
         })
     }
     
+    addedItem = (text) => {
+        const newItem = {
+            label: text,
+            important: true,
+            id: this.maxId++
+        }
+
+        this.setState(({ todoData }) => {
+            const newTodoData = [...todoData, newItem]
+
+            return {
+                todoData: newTodoData
+            }
+        })
+    }
+    
     render() {
-        console.log('render')
         return (
             <div className="todo-app">
                 <AppHeader toDo={ 1 } done={ 3 }/>
@@ -40,11 +57,11 @@ export default class App extends Component {
                     <SearchPanel/>
                     <ItemStatusFilter/>
                 </div>
-                
                 <TodoList
                     todos={ this.state.todoData }
                     onDeleted={ this.deleteItem }
                 />
+                <AddedItem onAddedItem={ this.addedItem }/>
             </div>
         )
     }
