@@ -8,7 +8,6 @@ import ItemStatusFilter from '../item-status-filter'
 import './app.css'
 
 export default class App extends Component {
-    
     maxId = 100
     
     state = {
@@ -16,7 +15,7 @@ export default class App extends Component {
             this.createTodoItem('Drink Coffee'),
             this.createTodoItem('Make Awesome App'),
             this.createTodoItem('Have a lunch'),
-        ]
+        ],
     }
     
     toggleProperty(arr, id, prop) {
@@ -57,7 +56,7 @@ export default class App extends Component {
             }
         })
     }
-    
+
     addedItem = (text) => {
         const newItem = this.createTodoItem(text)
 
@@ -69,7 +68,7 @@ export default class App extends Component {
             }
         })
     }
-    
+
     onToggleDone = (id) => {
         this.setState(({ todoData }) => {
 
@@ -87,11 +86,14 @@ export default class App extends Component {
             }
         })
     }
-    
+   
     render() {
+        const done = this.state.todoData.filter(it => it.done).length
+        const noDone = this.state.todoData.length - done
+        
         return (
             <div className="todo-app">
-                <AppHeader toDo={ 1 } done={ 3 }/>
+                <AppHeader toDo={ noDone } done={ done }/>
                 <div className="top-panel d-flex">
                     <SearchPanel/>
                     <ItemStatusFilter/>
