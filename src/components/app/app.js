@@ -88,16 +88,17 @@ export default class App extends Component {
         })
     }
     
-    search = (arr, term) => {
-        if (term.length === 0) return arr
-        
-        return arr.filter(item => item.label
-            .toLowerCase()
-            .indexOf(term) > -1)
-    }
-    
     onSearchChange = (term) => {
         this.setState({ term })
+    }
+    
+    search = (arr, term) => {
+        if (term.length === 0) return arr
+    
+        return arr.filter(item => {
+            return item.label
+                .toLowerCase().indexOf(term.toLowerCase()) > -1
+        })
     }
     
     render() {
@@ -111,8 +112,7 @@ export default class App extends Component {
             <div className="todo-app">
                 <AppHeader toDo={ noDone } done={ done } />
                 <div className="top-panel d-flex">
-                    <SearchPanel
-                        onSearchChange={ this.onSearchChange } />
+                    <SearchPanel onSearchChange={ this.onSearchChange } />
                     <ItemStatusFilter />
                 </div>
                 <TodoList
