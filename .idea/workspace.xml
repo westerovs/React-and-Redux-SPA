@@ -22,6 +22,7 @@
     <list default="true" id="bd121411-00bb-49d7-a095-97aebf6cc474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +106,9 @@
       <workItem from="1616008096454" duration="1114000" />
       <workItem from="1616009950947" duration="3028000" />
       <workItem from="1616085688285" duration="6489000" />
+      <workItem from="1616519390960" duration="198000" />
+      <workItem from="1616519600716" duration="7917000" />
+      <workItem from="1616561653324" duration="2234000" />
     </task>
     <servers />
   </component>
@@ -165,12 +169,12 @@
     <state x="602" y="83" width="1198" height="710" key="SettingsEditor/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615882085183" />
     <state x="658" y="57" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615918192053" />
     <state x="167" y="95" width="1262" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1616012930049" />
-    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1616094493692">
+    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1616563588187">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615963627358" />
     <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615922426421" />
-    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1616094493692" />
+    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1616563588187" />
     <state x="1028" y="267" width="633" height="564" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1615910610497">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
