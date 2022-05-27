@@ -1,2 +1,2 @@
-# React-and-Redux-SPA
+# React to-do list
 📗( LEARNING )📚
