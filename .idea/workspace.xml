@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bd121411-00bb-49d7-a095-97aebf6cc474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-header/app-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-header/app-header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-status-filter/item-status-filter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1pmaQ13UljE2UzuFtbOkpTaFYSC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,20 +59,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -110,12 +129,14 @@
       <workItem from="1616519600716" duration="7917000" />
       <workItem from="1616561653324" duration="2234000" />
       <workItem from="1617738125414" duration="2115000" />
-      <workItem from="1617740320063" duration="388000" />
+      <workItem from="1617740320063" duration="474000" />
+      <workItem from="1617740807077" duration="1834000" />
+      <workItem from="1653659888895" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -127,63 +148,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="913" y="237" width="931" height="583" key="#JavaScript" timestamp="1615915639116">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="913" y="237" width="931" height="583" key="#JavaScript/0.0.1920.1050@0.0.1920.1050" timestamp="1615915639116" />
-    <state x="939" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615828116596">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="939" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615828116596" />
-    <state x="2190" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615794095010">
-      <screen x="1920" y="-484" width="1080" height="1890" />
-    </state>
-    <state x="2190" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.-484.1080.1890@1920.-484.1080.1890" timestamp="1615794095010" />
-    <state x="1119" y="303" key="FileChooserDialogImpl" timestamp="1615910550954">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1119" y="303" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1615910550954" />
-    <state width="1921" height="279" key="GridCell.Tab.0.bottom" timestamp="1615830966438">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state width="1921" height="279" key="GridCell.Tab.0.center" timestamp="1615830966438">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="279" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state width="1921" height="279" key="GridCell.Tab.0.left" timestamp="1615830966438">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="279" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state width="1921" height="279" key="GridCell.Tab.0.right" timestamp="1615830966438">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1921" height="279" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615830966438" />
-    <state x="167" y="95" width="1262" height="883" key="SettingsEditor" timestamp="1616012930049">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="602" y="83" width="1198" height="710" key="SettingsEditor/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615882085183" />
-    <state x="658" y="57" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615918192053" />
-    <state x="167" y="95" width="1262" height="883" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1616012930049" />
-    <state x="856" y="195" width="710" height="660" key="find.popup" timestamp="1616563588187">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.-484.1080.1890@0.0.1920.1050" timestamp="1615963627358" />
-    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050/1920.0.1440.870@0.0.1920.1050" timestamp="1615922426421" />
-    <state x="856" y="195" width="710" height="660" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1616563588187" />
-    <state x="1028" y="267" width="633" height="564" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1615910610497">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1028" y="267" width="633" height="564" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1615910610497" />
-    <state x="871" y="245" key="run.anything.popup" timestamp="1616008139005">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="871" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1616008139005" />
   </component>
 </project>

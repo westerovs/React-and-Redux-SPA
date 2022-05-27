@@ -19,6 +19,22 @@ export default class App extends Component {
         term: ''
     }
     
+    filtered(e) {
+        switch (e.target.dataset.filter) {
+            case 'all':
+                console.log('all')
+                break
+            case 'active':
+                console.log('active')
+                break
+            case 'done':
+                console.log('done')
+                break
+            default: break
+        }
+    }
+
+    
     toggleProperty(arr, id, prop) {
         const idx = arr.findIndex(item => item.id === id)
         // update obj
@@ -113,7 +129,7 @@ export default class App extends Component {
                 <AppHeader toDo={ noDone } done={ done } />
                 <div className="top-panel d-flex">
                     <SearchPanel onSearchChange={ this.onSearchChange } />
-                    <ItemStatusFilter />
+                    <ItemStatusFilter filtered={ this.filtered } />
                 </div>
                 <TodoList
                     todos={ visibilityState }
